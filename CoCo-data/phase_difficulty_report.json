@@ -1,0 +1,69 @@
+{
+  "dataset": "/root/autodl-fs/Reformer/Reformer-data/Software_11111_0.1",
+  "phases": {
+    "phase0": {
+      "n_warm": 2235,
+      "n_cold": 2193,
+      "n_total": 4428,
+      "new_item_ratio_eta": 0.0,
+      "n_users_train": 64162,
+      "n_inter_train": 32871,
+      "avg_seq_len": 0.5123125837723262,
+      "cold_touch_rate_rho": 0.0,
+      "js_div_vs_prev": 0.0,
+      "n_test_targets": 75593,
+      "test_target_cold_ratio_nu": 0.4893971664042967,
+      "test_history_old_ratio": 0.0,
+      "index_drift_rate": 0.0,
+      "index_n_common": 0
+    },
+    "phase1": {
+      "n_warm": 4428,
+      "n_cold": 2198,
+      "n_total": 6626,
+      "new_item_ratio_eta": 0.3317235134319348,
+      "n_users_train": 64162,
+      "n_inter_train": 68034,
+      "avg_seq_len": 1.0603472460334777,
+      "cold_touch_rate_rho": 0.0,
+      "js_div_vs_prev": 0.34616547821217114,
+      "n_test_targets": 120307,
+      "test_target_cold_ratio_nu": 0.37099254407474214,
+      "test_history_old_ratio": 0.5159098951544091,
+      "index_drift_rate": 1.0,
+      "index_n_common": 2235
+    },
+    "phase2": {
+      "n_warm": 6626,
+      "n_cold": 2219,
+      "n_total": 8845,
+      "new_item_ratio_eta": 0.25087620124364046,
+      "n_users_train": 64162,
+      "n_inter_train": 108277,
+      "avg_seq_len": 1.687556497615411,
+      "cold_touch_rate_rho": 0.0,
+      "js_div_vs_prev": 0.26786178268389865,
+      "n_test_targets": 168769,
+      "test_target_cold_ratio_nu": 0.3613459817857545,
+      "test_history_old_ratio": 0.6400378332060394,
+      "index_drift_rate": 1.0,
+      "index_n_common": 6626
+    },
+    "phase3": {
+      "n_warm": 8845,
+      "n_cold": 2147,
+      "n_total": 10992,
+      "new_item_ratio_eta": 0.19532387190684133,
+      "n_users_train": 64162,
+      "n_inter_train": 151893,
+      "avg_seq_len": 2.3673358062404537,
+      "cold_touch_rate_rho": 0.0,
+      "js_div_vs_prev": 0.22597345116647466,
+      "n_test_targets": 132548,
+      "test_target_cold_ratio_nu": 0.3985348703865769,
+      "test_history_old_ratio": 0.6669274912163411,
+      "index_drift_rate": 1.0,
+      "index_n_common": 8845
+    }
+  }
+}

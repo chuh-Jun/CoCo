@@ -1,0 +1,14 @@
+# 大文件不上传
+*.log
+nohup.out
+experiments/*.ckpt
+experiments/*output
+experiments/*ckpts
+Reformer-data/
+models/
+__pycache__/
+*.pyc
+*.pth
+*.bin
+*.safetensors
+tmp/
