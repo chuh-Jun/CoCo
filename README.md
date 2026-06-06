@@ -1,5 +1,5 @@
-```markdown
-# CoCo: Collision-aware Continual Learning for Generative Recommendation
+# README.md
+## Co: Collision-aware Continual Learning for Generative Recommendation
 Official implementation of **CoCo (Collision-aware Continual Learning)** proposed in the paper *Dynamic Update Mechanism for Generative Recommendation*.
 
 ### Project Overview
